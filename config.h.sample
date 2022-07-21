@@ -1,0 +1,12 @@
+// Wifi config
+char *wifi_ssid      = "wifi_ssid";
+char *wifi_password  = "wifi_password";
+char *mqtt_host    = "iot.eclopse.org";
+int  mqtt_port       = 1883;
+
+char *mqtt_client_id = "mqtt-onair-indicator-m5atom-0001";
+bool mqtt_use_auth   = false;
+char *mqtt_username  = "username";
+char *mqtt_password  = "password";
+
+char *mqtt_onair_data_topic = "onair/0001";
